@@ -3,6 +3,6 @@ This is a github repository that contains lists of compatible PS2 games using US
 
 
 # K
-| Game ID     | English Name | Foreign Name | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
-| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- |
-| SLPS_255.75 | Keroro Gunsou: Mero Mero Battle Royale Z | ケロロ軍曹　～メロメロバトルロイヤルＺ～ | DVD-ISO | YES | YES | UNTESTED | GSM | YES | Any Model | Colton Silva | No problem whatsoever with framerate and videos
+| Game ID     | English Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
+| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SLPS_255.75 | Keroro Gunsou: Mero Mero Battle Royale Z | ケロロ軍曹　～メロメロバトルロイヤルＺ～ | 3.5GB | NO | DVD-ISO | YES | YES | UNTESTED | GSM | YES | Any Model | Colton Silva | No problem whatsoever with framerate and videos
