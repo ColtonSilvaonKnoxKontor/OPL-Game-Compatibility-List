@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="dceJKn7DzJc5hxJWMd9wUrUlfwCYctdsrx4p9-SQwMg" />
+
 # OPL PS2 Game Compatibility List
 This is a github page that contains lists of compatible PS2 games using USB on OPL.
 
@@ -241,20 +243,9 @@ they are reported as not compatible with latest OPL version. You may update or c
 <th>Reporter</th>
 <th>Notes</th>
 </tr>
-<tr>
-<td>SLUS_210.74</td>
-<td>The Guy Game</td>
-<td>NONE</td>
-<td>8.1</td>
-<td>YES</td>
-<td>DVD9-ISO</td>
-<td>NO</td>
-<td>NO</td>
-<td>NO</td>
-<td>NO</td>
-<td>NO</td>
-<td>Any Model</td>
-<td>Colton Silva</td>
+<tr> <td>SLUS_210.74</td> <td>The Guy Game</td> <td>NONE</td> <td>8.1</td>
+<td>YES</td> <td>DVD9-ISO</td> <td>NO</td> <td>NO</td> <td>NO</td>
+<td>NO</td> <td>NO</td> <td>Any Model</td> <td>Colton Silva</td>
 <td>Stuck at loading screen</td>
 </tr>
 </table>
