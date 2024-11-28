@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
 # OPL PS2 Game Compatibility List
 This is a github repository that contains lists of compatible PS2 games using USB on OPL.
