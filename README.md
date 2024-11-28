@@ -45,6 +45,11 @@ they are reported as not compatible with latest OPL version. You may update or c
 <td>SLUS_200.62</td> <td>Grand Theft Auto III</td> <td>NONE</td> <td>4.6</td> <td>YES</td> <td>DVD-ISO</td> <td>YES</td>
 <td>UNTESTED</td> <td>UNTESTED</td> <td>UNTESTED</td> <td>YES</td> <td>Any Model</td> <td>Colton Silva</td> <td>None</td>
 </tr>
+
+<tr>
+<td>SLUS_209.46</td> <td>Grand Theft Auto: San Andreas</td> <td>NONE</td> <td>4.5</td> <td>YES</td> <td>DVD-ISO</td>
+<td>YES</td> <td>NO</td> <td>NO</td> <td>NO</td> <td>YES</td> <td>Any Model</td> <td>Colton Silva</td> <td>NONE</td>
+</tr>
   
 <tr>
 <td>SLUS_205.22</td> <td>Grand Theft Auto: Vice City</td> <td>NONE</td> <td>4.7</td> <td>YES</td> <td>DVD-ISO</td>
@@ -66,6 +71,12 @@ they are reported as not compatible with latest OPL version. You may update or c
 <td>YES</td> <td>UNTESTED</td> <td>YES</td> <td>YES</td> <td>Any Model</td> <td>Colton Silva</td>
 <td>With some noticeable framedrops</td>
 </tr>
+
+<tr>
+<td>SLPM_652.68</td> <td>Initial D Special Stage</td> <td>頭文字Ｄ Special Stage</td> <td>2.0</td> <td>NO</td> <td>DVD-ISO</td>
+<td>NO</td> <td>NO</td> <td>NO</td> <td>NO</td> <td>YES</td> <td>SCPH-70005</td> <td>Colton Silva</td> <td>NONE</td>
+</tr>
+
 </table>
 
 
@@ -87,6 +98,12 @@ they are reported as not compatible with latest OPL version. You may update or c
 <td>3.5</td> <td>NO</td> <td>DVD-ISO</td> <td>YES</td> <td>YES</td> <td>UNTESTED</td> <td>YES</td> <td>YES</td>
 <td>Any Model</td> <td>Colton Silva</td> <td>No problem whatsoever with framerate and videos</td>
 </tr>
+
+<tr>
+<td>SLPS_256.43</td> <td>KimiKiss</td> <td>キミキス</td> <td>3.4</td> <td>NO</td> <td>DVD-ISO</td> <td>YES</td> <td>NO</td>
+<td>NO</td> <td>NO</td> <td>YES</td> <td>Any Model</td> <td>Colton Silva</td> <td>NONE</td>
+</tr>
+
   
 <tr>
 <td>SLPS_258.5</td> <td>KimiKiss ebKore+</td> <td>エビコレ＋キミキス</td> <td>1.3</td> <td>NO</td> <td>DVD-ISO</td>
@@ -94,6 +111,21 @@ they are reported as not compatible with latest OPL version. You may update or c
 </tr>
 </table>
 
+# P
+<table border='1' cellpadding='5' cellspacing='0'>
+<tr>
+<th>Game ID</th> <th>Name</th> <th>Foreign Name</th> <th>Size (ISO)</th> <th>Need Split?</th> <th>Format</th>
+<th>VNC</th> <th>IGR</th> <th>PADEMU</th> <th>GSM</th> <th>Compatible?</th> <th>Console</th> <th>Reporter</th> <th>Notes</th>
+</tr>
+
+<tr>
+<td>SLUS_207.43</td> <td>Prince of Persia: The Sands of Time</td> <td>NONE</td> <td>2.4</td> <td>NO</td> <td>DVD-ISO</td>
+<td>YES</td> <td>NO</td> <td>NO</td> <td>NO</td> <td>YES</td> <td>SCPH-70005</td> <td>Colton Silva</td>
+<td>Intro and in-game movie slutters</td>
+</tr>
+
+
+</table>
 
 # T
 <table border='1' cellpadding='5' cellspacing='0'>
