@@ -18,8 +18,10 @@ they are reported as not compatible with latest OPL version. You may update or c
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
 | SLUS_200.62 | Grand Theft Auto III | NONE | 4.6 | YES | DVD-ISO | YES | UNTESTED | UNTESTED | UNTESTED | YES | Any Model | Colton Silva | None
-| SLUS_209.46 | Grand Theft Auto: San Andreas | NONE | 4.5 | YES | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
+| SLUS_214.23 | Grand Theft Auto: Liberty City Stories | NONE | 4.0 | YES | DVD-ISO | YES | NO | NO | NO | YES | SCPH-70005, SCPH-70006 | Colton Silva | NONE
+| SLUS_209.46 | Grand Theft Auto: San Andreas | NONE | 4.5 | YES | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
 | SLUS_205.22 | Grand Theft Auto: Vice City | NONE | 4.7 | YES | DVD-ISO | YES | UNTESTED | UNTESTED | UNTESTED | YES | Any Model | Colton Silva | NONE
+| SLUS_215.9 | Grand Theft Auto: Vice City Stories | NONE | 4.1 | YES | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
 
 # I
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
@@ -35,13 +37,22 @@ they are reported as not compatible with latest OPL version. You may update or c
 | SLPS_256.43 | KimiKiss | キミキス | 3.4 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
 | SLPS_258.50 | KimiKiss ebKore+ | エビコレ＋キミキス | 1.3 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
 
+# N
+| Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
+| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SLUS_216.47 | NHL 08 | NONE | 4.7 | YES | DVD-ISO | YES | UNTESTED | UNTESTED | UNTESTED | YES | Any Model | Colton Silva | NONE
+
 # P
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
 | SLUS_207.43 | Prince of Persia: The Sands of Time | NONE | 2.4 | NO | DVD-ISO | YES | NO | NO | NO | YES | SCPH-70005 | Colton Silva | Intro and in-game movie slutters
 
+# S
+| Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
+| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SCUS_974.72 | Shadow of the Collosus | NONE | 2.7 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
 
 # T
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
-| SLUS_210.74 | The Guy Game | NONE | 8.1 | YES | DVD9-ISO | NO | NO | NO | NO | NO | Any Model | Colton Silva | Stuck at loading screen
+| SLUS_210.74 | The Guy Game | NONE | 8.1 | YES | DVD9-ISO | NO | NO | NO | NO | NO | Any Model | Colton Silva | Stuck at loading screen (sorry, no sexy time)
