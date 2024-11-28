@@ -25,6 +25,7 @@ they are reported as not compatible with latest OPL version. You may update or c
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
 | SLPS_255.47 | Ichigo Mashimaro | 苺ましまろ | 2.8 | NO | DVD-ISO | YES | YES | UNTESTED | YES | YES | Any Model | Colton Silva | With some noticeable framedrops
+| SLPM_652.68 | Initial D Special Stage | 頭文字Ｄ Special Stage | 2.0 | NO | DVD-ISO | NO | NO | NO | NO | YES | SCPH-70005 | Colton Silva | NONE
 
 # K
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
@@ -33,6 +34,12 @@ they are reported as not compatible with latest OPL version. You may update or c
 | SLPS_255.75 | Keroro Gunsou: Mero Mero Battle Royale Z | ケロロ軍曹　～メロメロバトルロイヤルＺ～ | 3.5 | NO | DVD-ISO | YES | YES | UNTESTED | YES | YES | Any Model | Colton Silva | No problem whatsoever with framerate and videos
 | SLPS_256.43 | KimiKiss | キミキス | 3.4 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
 | SLPS_258.50 | KimiKiss ebKore+ | エビコレ＋キミキス | 1.3 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
+
+# P
+| Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
+| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SLUS_207.43 | Prince of Persia: The Sands of Time | NONE | 2.4 | NO | DVD-ISO | YES | NO | NO | NO | YES | SCPH-70005 | Colton Silva | Intro and in-game movie slutters
+
 
 # T
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
