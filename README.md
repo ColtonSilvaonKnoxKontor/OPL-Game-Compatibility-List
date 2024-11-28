@@ -18,6 +18,7 @@ they are reported as not compatible with latest OPL version. You may update or c
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
 | SLUS_200.62 | Grand Theft Auto III | NONE | 4.6 | YES | DVD-ISO | YES | UNTESTED | UNTESTED | UNTESTED | YES | Any Model | Colton Silva | None
+| SLUS_209.46 | Grand Theft Auto: San Andreas | NONE | 4.5 | YES | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
 | SLUS_205.22 | Grand Theft Auto: Vice City | NONE | 4.7 | YES | DVD-ISO | YES | UNTESTED | UNTESTED | UNTESTED | YES | Any Model | Colton Silva | NONE
 
 # I
@@ -30,7 +31,8 @@ they are reported as not compatible with latest OPL version. You may update or c
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
 | SLPS_253.99 | Keroro Gunsou: Mero Mero Battle Royale | ケロロ軍曹 メロメロバトルロイヤル | 3.9 | YES | DVD-ISO | YES | YES | YES | YES | YES | Any Model | Colton Silva | None
 | SLPS_255.75 | Keroro Gunsou: Mero Mero Battle Royale Z | ケロロ軍曹　～メロメロバトルロイヤルＺ～ | 3.5 | NO | DVD-ISO | YES | YES | UNTESTED | YES | YES | Any Model | Colton Silva | No problem whatsoever with framerate and videos
-| SLPS_258.5 | KimiKiss ebKore+ | エビコレ＋キミキス | 1.3 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
+| SLPS_256.43 | KimiKiss | キミキス | 3.4 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
+| SLPS_258.50 | KimiKiss ebKore+ | エビコレ＋キミキス | 1.3 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
 
 # T
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
