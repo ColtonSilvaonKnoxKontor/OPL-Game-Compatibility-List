@@ -2,3 +2,5 @@ markdown: kramdown
 kramdown:
   input: GFM 
   hard_wrap: false
+css:
+  - "style.css"
