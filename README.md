@@ -1,5 +1,6 @@
+<head>
 <meta name="google-site-verification" content="dceJKn7DzJc5hxJWMd9wUrUlfwCYctdsrx4p9-SQwMg" />
-
+</head>
 # OPL PS2 Game Compatibility List
 This is a github page that contains lists of compatible PS2 games using USB on OPL.
 
