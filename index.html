@@ -75,43 +75,46 @@
     <div class="container">
         <h1>OPL Game Compatibility List</h1>
 
-        <!-- Links to each letter group, pointing to the corresponding README.md -->
+        <!-- Links to each letter group -->
         <div id="letter-links">
-            <a href="A/README.md" class="letter-link">A</a>
-            <a href="B/README.md" class="letter-link">B</a>
-            <a href="C/README.md" class="letter-link">C</a>
-            <a href="D/README.md" class="letter-link">D</a>
+            <a href="#" class="letter-link" onclick="displayGames('A')">A</a>
+            <a href="#" class="letter-link" onclick="displayGames('B')">B</a>
+            <a href="#" class="letter-link" onclick="displayGames('C')">C</a>
+            <a href="#" class="letter-link" onclick="displayGames('D')">D</a>
             <!-- Add more links for other letters as needed -->
         </div>
 
-        <!-- Content will be loaded here -->
+        <!-- Content will be dynamically loaded here -->
         <div id="content"></div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/marked@4.0.12/lib/marked.min.js"></script>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const contentDiv = document.getElementById('content');
-
-            // Check if there's a 'README.md' file in the URL path
-            const pathParts = window.location.pathname.split('/');
-            const lastPart = pathParts[pathParts.length - 1];
-
-            if (lastPart && lastPart.endsWith('.md')) {
-                const mdPath = lastPart;
-                // Dynamically load the markdown file
-                fetch(mdPath)
-                    .then(response => response.text())
-                    .then(markdown => {
-                        const htmlContent = marked(markdown); // Convert markdown to HTML
-                        contentDiv.innerHTML = htmlContent;
-                    })
-                    .catch(error => {
-                        contentDiv.innerHTML = "<p>Error loading the game list.</p>";
-                    });
+     function displayGames(letter) {
+    const contentDiv = document.getElementById('content');
+    const filePath = letter + '/README.md'; // Path to the corresponding README.md file (e.g., A/README.md)
+    
+    // Fetch the markdown file
+    fetch(filePath)
+        .then(response => {
+            if (response.ok) {
+                return response.text(); // Return the content of the markdown file
+            } else {
+                throw new Error("File not found");
             }
+        })
+        .then(markdown => {
+            // Convert the markdown to HTML using the 'marked' library
+            const htmlContent = marked(markdown);
+            contentDiv.innerHTML = htmlContent; // Insert the HTML into the content div
+        })
+        .catch(error => {
+            contentDiv.innerHTML = "<p>Error loading the game list. Please try again later.</p>";
         });
+}
+
     </script>
+
 </body>
 </html>
