@@ -1,5 +1,5 @@
 # OPL PS2 Game Compatibility List
-This is a github repository that contains lists of compatible PS2 games using USB on OPL.
+This is a github repository that contains lists of compatible PS2 games using USB on OPL. For HDD/SMB, refer to other sources.
 
 # How to add a game list here?
 You may use `formatter.cpp`, a c++ program that will automatically format a table data for you with easy to input function. These lists follow alphabetical sorting order from first numeric and letter.
