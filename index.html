@@ -95,7 +95,7 @@
 
     <script>
         function loadGames(letter) {
-            fetch(letter + '/README.md')
+            fetch(letter + '/DATABASE.md')
                 .then(response => response.text())
                 .then(markdown => {
                     // Convert markdown to HTML
