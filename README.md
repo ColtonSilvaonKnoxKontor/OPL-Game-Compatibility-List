@@ -4,6 +4,9 @@ This is a github repository that contains lists of compatible PS2 games using US
 # How to add a game list here?
 You may use `formatter.cpp`, a c++ program that will automatically format a table data for you with easy to input function. These lists follow alphabetical sorting order from first numeric and letter.
 
+> [!NOTE]
+> Please put compatibility mode settings or OPL version on **Notes** if there's a specific version that can work while others not.
+
 # Disclaimer
 While some data here are not so accurate since most game lists are based on other sources provided by the OPL devs and contributors, it guarantees that all of the listed games here are tested working; or if not,
 they are reported as not compatible with latest OPL version. You may update or change data here if some features of OPL works or not.
@@ -13,6 +16,11 @@ they are reported as not compatible with latest OPL version. You may update or c
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
 | SLPS_210.74 | Amagami | アマガミ | 3.7 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
 | SLPS_259.87 | Amagami ebKore+ | アマガミebKore+ | 4.4 | YES | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
+
+# E
+| Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
+| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SLUS_209.19 | ESPN NFL 2K5 | NONE | 4.7 | YES | DVD-ISO | YES | UNTESTED | UNTESTED | UNTESTED | YES | SCPH-70005 | Colton Silva | Works perfectly
 
 # G
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
@@ -56,3 +64,9 @@ they are reported as not compatible with latest OPL version. You may update or c
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
 | SLUS_210.74 | The Guy Game | NONE | 8.1 | YES | DVD9-ISO | NO | NO | NO | NO | NO | Any Model | Colton Silva | Stuck at loading screen (sorry, no sexy time)
+
+# W
+| Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
+| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SLUS_212.86 | WWE Smackdown! vs. RAW 2006 | NONE | 4.3 | YES | DVD-ISO | YES | UNTESTED | UNTESTED | UNTESTED | YES | Any Model | Colton Silva | Intro movie sluttering
+
