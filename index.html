@@ -94,23 +94,41 @@
     </div>
 
     <script>
-   function loadGames(letter) {
-    // Use the full path, including the repository name, in case GitHub Pages serves from a subfolder
-    const path = `OPL-Game-Compatibility-List/tree/gh-page/${letter}/README.md`;
+  function loadGames(letter) {
+    // Update the URL hash (this reflects the letter clicked)
+    window.location.hash = letter;
 
-    fetch(path)
-            fetch(letter + '/README.md')
-                .then(response => response.text())
-                .then(markdown => {
-                    // Convert markdown to HTML
-                    const htmlContent = marked(markdown);
-                    document.getElementById('content').innerHTML = htmlContent;
-                })
-                .catch(error => {
-                    console.error("Error fetching the markdown file:", error);
-                    document.getElementById('content').innerHTML = "<p>Error loading the game list.</p>";
-                });
-        }
+    // Fetch the corresponding README.md file from the correct folder
+    fetch(letter + '/README.md') // Assuming your files are in A/, B/, etc.
+        .then(response => response.text())
+        .then(markdown => {
+            // Convert the Markdown to HTML using a library like marked.js
+            const htmlContent = marked(markdown);
+            document.getElementById('content').innerHTML = htmlContent;  // Insert the converted HTML
+        })
+        .catch(error => {
+            console.error("Error fetching the markdown file:", error);
+            document.getElementById('content').innerHTML = "<p>Error loading the game list.</p>";
+        });
+}
+
+// Listen for changes in the hash fragment (URL)
+window.addEventListener('hashchange', function() {
+    const letter = window.location.hash.substring(1);  // Get the part after the '#'
+    if (letter) {
+        loadGames(letter);  // Fetch and display the corresponding content
+    }
+});
+
+// Optionally, load the content for the default hash when the page loads
+window.addEventListener('load', function() {
+    const letter = window.location.hash.substring(1);  // Get the part after the '#'
+    if (letter) {
+        loadGames(letter);  // Load games if there's a hash in the URL
+    } else {
+        loadGames('A');  // Default to 'A' if there's no hash in the URL
+    }
+});
     </script>
 
     <!-- Include marked.js to convert Markdown to HTML -->
