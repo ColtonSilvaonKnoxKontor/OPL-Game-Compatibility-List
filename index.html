@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OPL Game Compatibility List</title>
     <style>
+        /* Basic Styling */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -45,30 +46,27 @@
 
         #content {
             margin-top: 20px;
+            overflow-x: auto;
         }
 
-        .letter-group {
-            margin-bottom: 20px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
         }
 
-        .letter-group h2 {
-            background-color: #4CAF50;
-            color: white;
-            padding: 5px;
-            margin: 0;
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
         }
 
-        ul {
-            list-style-type: none;
-            padding-left: 0;
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
         }
 
-        li {
-            padding: 5px 0;
-        }
-
-        li strong {
-            font-weight: bold;
+        td {
+            text-align: left;
         }
     </style>
 </head>
@@ -77,61 +75,43 @@
     <div class="container">
         <h1>OPL Game Compatibility List</h1>
 
-        <!-- Links to the letters -->
+        <!-- Links to each letter group, pointing to the corresponding README.md -->
         <div id="letter-links">
-            <a href="#" class="letter-link" onclick="loadGames('A')">A</a>
-            <a href="#" class="letter-link" onclick="loadGames('B')">B</a>
-            <a href="#" class="letter-link" onclick="loadGames('C')">C</a>
-            <a href="#" class="letter-link" onclick="loadGames('D')">D</a>
-            <a href="#" class="letter-link" onclick="loadGames('E')">E</a>
+            <a href="A/README.md" class="letter-link">A</a>
+            <a href="B/README.md" class="letter-link">B</a>
+            <a href="C/README.md" class="letter-link">C</a>
+            <a href="D/README.md" class="letter-link">D</a>
             <!-- Add more links for other letters as needed -->
         </div>
 
-        <!-- Game list content -->
-        <div id="content">
-            <!-- This is where the content will be injected -->
-        </div>
+        <!-- Content will be loaded here -->
+        <div id="content"></div>
     </div>
 
-    <script>
-  function loadGames(letter) {
-    // Update the URL hash (this reflects the letter clicked)
-    window.location.hash = letter;
-
-    // Fetch the corresponding README.md file from the correct folder
-    fetch(letter + '/README.md') // Assuming your files are in A/, B/, etc.
-        .then(response => response.text())
-        .then(markdown => {
-            // Convert the Markdown to HTML using a library like marked.js
-            const htmlContent = marked(markdown);
-            document.getElementById('content').innerHTML = htmlContent;  // Insert the converted HTML
-        })
-        .catch(error => {
-            console.error("Error fetching the markdown file:", error);
-            document.getElementById('content').innerHTML = "<p>Error loading the game list.</p>";
-        });
-}
-
-// Listen for changes in the hash fragment (URL)
-window.addEventListener('hashchange', function() {
-    const letter = window.location.hash.substring(1);  // Get the part after the '#'
-    if (letter) {
-        loadGames(letter);  // Fetch and display the corresponding content
-    }
-});
-
-// Optionally, load the content for the default hash when the page loads
-window.addEventListener('load', function() {
-    const letter = window.location.hash.substring(1);  // Get the part after the '#'
-    if (letter) {
-        loadGames(letter);  // Load games if there's a hash in the URL
-    } else {
-        loadGames('A');  // Default to 'A' if there's no hash in the URL
-    }
-});
-    </script>
-
-    <!-- Include marked.js to convert Markdown to HTML -->
     <script src="https://cdn.jsdelivr.net/npm/marked@4.0.12/lib/marked.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const contentDiv = document.getElementById('content');
+
+            // Check if there's a 'README.md' file in the URL path
+            const pathParts = window.location.pathname.split('/');
+            const lastPart = pathParts[pathParts.length - 1];
+
+            if (lastPart && lastPart.endsWith('.md')) {
+                const mdPath = lastPart;
+                // Dynamically load the markdown file
+                fetch(mdPath)
+                    .then(response => response.text())
+                    .then(markdown => {
+                        const htmlContent = marked(markdown); // Convert markdown to HTML
+                        contentDiv.innerHTML = htmlContent;
+                    })
+                    .catch(error => {
+                        contentDiv.innerHTML = "<p>Error loading the game list.</p>";
+                    });
+            }
+        });
+    </script>
 </body>
 </html>
