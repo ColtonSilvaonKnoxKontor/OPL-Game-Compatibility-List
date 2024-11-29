@@ -93,10 +93,10 @@
         function displayGames(letter) {
             const contentDiv = document.getElementById('content');
             
-            // Path to the README.md file for the selected letter
-            const filePath = letter + '/README.md';
+            // GitHub raw URL for the README.md file for the selected letter
+            const filePath = `https://raw.githubusercontent.com/ColtonSilvaonKnoxKontor/OPL-Game-Compatibility-List/gh-page/${letter}/README.md`;
 
-            // Fetch the content of the README.md file for that letter
+            // Fetch the content of the README.md file from GitHub's raw URL
             fetch(filePath)
                 .then(response => response.text())
                 .then(markdown => {
