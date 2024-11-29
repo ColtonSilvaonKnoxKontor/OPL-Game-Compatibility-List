@@ -88,7 +88,7 @@
         <div id="content"></div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/marked@4.0.12/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.min.js"></script>
     <script>
         // Function to display the games dynamically in a table format
         function displayGames(letter) {
@@ -112,8 +112,8 @@
                         throw new Error('Markdown content is empty');
                     }
                     
-                    // Convert the Markdown to HTML
-                    const htmlContent = marked(markdown);
+                    // Convert the Markdown to HTML using marked.parse()
+                    const htmlContent = marked.parse(markdown);
 
                     // Insert the HTML content into the content div
                     contentDiv.innerHTML = htmlContent;
