@@ -88,31 +88,43 @@
         <div id="content"></div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/marked@4.0.12/marked.min.js"></script>
     <script>
         // Function to display the games dynamically in a table format
         function displayGames(letter) {
             const contentDiv = document.getElementById('content');
             
-            // GitHub raw URL for the README.md file for the selected letter
-            const filePath = `https://raw.githubusercontent.com/ColtonSilvaonKnoxKontor/OPL-Game-Compatibility-List/gh-page/${letter}/README.md`;
+            // Path to the README.md file for the selected letter
+            const filePath = letter + '/README.md';
 
-            // Fetch the content of the README.md file from GitHub's raw URL
+            // Fetch the content of the README.md file for that letter
             fetch(filePath)
-                .then(response => response.text())
+                .then(response => {
+                    if (response.ok) {
+                        return response.text(); // Return the file content if fetch is successful
+                    } else {
+                        throw new Error('File not found');
+                    }
+                })
                 .then(markdown => {
+                    // Check if markdown content is empty
+                    if (!markdown.trim()) {
+                        throw new Error('Markdown content is empty');
+                    }
+                    
                     // Convert the Markdown to HTML
                     const htmlContent = marked(markdown);
 
                     // Insert the HTML content into the content div
                     contentDiv.innerHTML = htmlContent;
+
                 })
                 .catch(error => {
-                    contentDiv.innerHTML = "<p>Error loading the game list. Please check the file structure.</p>";
+                    contentDiv.innerHTML = "<p>Error loading the game list. Please check the file structure or try again later.</p>";
+                    console.error('Fetch error:', error);  // Log the error for debugging
                 });
         }
     </script>
 
-    <!-- Include marked.js to convert Markdown to HTML -->
-    <script src="https://cdn.jsdelivr.net/npm/marked@4.0.12/marked.min.js"></script>
 </body>
 </html>
