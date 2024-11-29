@@ -33,6 +33,19 @@ they are reported as not compatible with latest OPL version. You may update or c
 </tr>
 </table>
 
+# E
+<table border='1' cellpadding='5' cellspacing='0'>
+<tr>
+<th>Game ID</th> <th>Name</th> <th>Foreign Name</th> <th>Size (ISO)</th> <th>Need Split?</th> <th>Format</th> <th>VNC</th>
+<th>IGR</th> <th>PADEMU</th> <th>GSM</th> <th>Compatible?</th> <th>Console</th> <th>Reporter</th> <th>Notes</th>
+</tr>
+  
+<tr>
+<td>SLUS_209.19</td> <td>ESPN NFL 2K5</td> <td>NONE</td> <td>4.7</td> <td>YES</td> <td>DVD-ISO</td> <td>YES</td> <td>UNTESTED</td>
+<td>UNTESTED</td> <td>UNTESTED</td> <td>YES</td> <td>SCPH-70005</td> <td>Colton Silva</td> <td>Works perfectly</td>
+</tr>
+</table>
+
 
 # G
 <table border='1' cellpadding='5' cellspacing='0'>
@@ -47,6 +60,12 @@ they are reported as not compatible with latest OPL version. You may update or c
 </tr>
 
 <tr>
+<td>SLUS_214.23</td> <td>Grand Theft Auto: Liberty City Stories</td> <td>NONE</td> <td>4.0</td> <td>YES</td> <td>DVD-ISO</td>
+<td>YES</td> <td>NO</td> <td>NO</td> <td>NO</td> <td>YES</td> <td>SCPH-70005, SCPH-70006</td> <td>Colton Silva</td> <td>NONE</td>
+</tr>
+
+
+<tr>
 <td>SLUS_209.46</td> <td>Grand Theft Auto: San Andreas</td> <td>NONE</td> <td>4.5</td> <td>YES</td> <td>DVD-ISO</td>
 <td>YES</td> <td>NO</td> <td>NO</td> <td>NO</td> <td>YES</td> <td>Any Model</td> <td>Colton Silva</td> <td>NONE</td>
 </tr>
@@ -55,6 +74,11 @@ they are reported as not compatible with latest OPL version. You may update or c
 <td>SLUS_205.22</td> <td>Grand Theft Auto: Vice City</td> <td>NONE</td> <td>4.7</td> <td>YES</td> <td>DVD-ISO</td>
 <td>YES</td> <td>UNTESTED</td> <td>UNTESTED</td> <td>UNTESTED</td> <td>YES</td> <td>Any Model</td> <td>Colton Silva</td>
 <td>NONE</td>
+</tr>
+
+<tr>
+<td>SLUS_215.90</td> <td>Grand Theft Auto: Vice City Stories</td> <td>NONE</td> <td>4.1</td> <td>YES</td> <td>DVD-ISO</td>
+<td>YES</td> <td>NO</td> <td>NO</td> <td>NO</td> <td>YES</td> <td>Any Model</td> <td>Colton Silva</td> <td>NONE</td>
 </tr>
 </table>
 
@@ -104,10 +128,22 @@ they are reported as not compatible with latest OPL version. You may update or c
 <td>NO</td> <td>NO</td> <td>YES</td> <td>Any Model</td> <td>Colton Silva</td> <td>NONE</td>
 </tr>
 
-  
 <tr>
 <td>SLPS_258.5</td> <td>KimiKiss ebKore+</td> <td>エビコレ＋キミキス</td> <td>1.3</td> <td>NO</td> <td>DVD-ISO</td>
 <td>YES</td> <td>NO</td> <td>NO</td> <td>NO</td> <td>YES</td> <td>Any Model</td> <td>Colton Silva</td> <td>NONE</td>
+</tr>
+</table>
+
+# N
+<table border='1' cellpadding='5' cellspacing='0'>
+<tr>
+<th>Game ID</th> <th>Name</th> <th>Foreign Name</th> <th>Size (ISO)</th> <th>Need Split?</th> <th>Format</th> <th>VNC</th>
+<th>IGR</th> <th>PADEMU</th> <th>GSM</th> <th>Compatible?</th> <th>Console</th> <th>Reporter</th> <th>Notes</th>
+</tr>
+  
+<tr>
+<td>SLUS_216.47</td> <td>NHL 08</td> <td>NONE</td> <td>4.7</td> <td>YES</td> <td>DVD-ISO</td> <td>YES</td> <td>UNTESTED</td>
+<td>UNTESTED</td> <td>UNTESTED</td> <td>YES</td> <td>Any Model</td> <td>Colton Silva</td> <td>NONE</td>
 </tr>
 </table>
 
@@ -123,8 +159,19 @@ they are reported as not compatible with latest OPL version. You may update or c
 <td>YES</td> <td>NO</td> <td>NO</td> <td>NO</td> <td>YES</td> <td>SCPH-70005</td> <td>Colton Silva</td>
 <td>Intro and in-game movie slutters</td>
 </tr>
+</table>
 
+# S
+<table border='1' cellpadding='5' cellspacing='0'>
+<tr>
+<th>Game ID</th> <th>Name</th> <th>Foreign Name</th> <th>Size (ISO)</th> <th>Need Split?</th> <th>Format</th>
+<th>VNC</th> <th>IGR</th> <th>PADEMU</th> <th>GSM</th> <th>Compatible?</th> <th>Console</th> <th>Reporter</th> <th>Notes</th>
+</tr>
 
+<tr>
+<td>SCUS_974.72</td> <td>Shadow of the Collosus</td> <td>NONE</td> <td>2.7</td> <td>NO</td> <td>DVD-ISO</td> <td>YES</td>
+<td>NO</td> <td>NO</td> <td>NO</td> <td>YES</td> <td>Any Model</td> <td>Colton Silva</td> <td>NONE</td>
+</tr>
 </table>
 
 # T
@@ -139,3 +186,16 @@ they are reported as not compatible with latest OPL version. You may update or c
 </tr>
 </table>
 
+# W
+<table border='1' cellpadding='5' cellspacing='0'>
+<tr>
+<th>Game ID</th> <th>Name</th> <th>Foreign Name</th> <th>Size (ISO)</th> <th>Need Split?</th> <th>Format</th>
+<th>VNC</th> <th>IGR</th> <th>PADEMU</th> <th>GSM</th> <th>Compatible?</th> <th>Console</th> <th>Reporter</th> <th>Notes</th>
+</tr>
+
+<tr>
+<td>SLUS_212.86</td> <td>WWE Smackdown! vs. RAW 2006</td> <td>NONE</td> <td>4.3</td> <td>YES</td> <td>DVD-ISO</td>
+<td>YES</td> <td>UNTESTED</td> <td>UNTESTED</td> <td>UNTESTED</td> <td>YES</td> <td>Any Model</td> <td>Colton Silva</td>
+<td>Intro movie sluttering</td>
+</tr>
+</table>
