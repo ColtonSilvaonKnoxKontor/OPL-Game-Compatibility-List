@@ -94,7 +94,11 @@
     </div>
 
     <script>
-        function loadGames(letter) {
+   function loadGames(letter) {
+    // Use the full path, including the repository name, in case GitHub Pages serves from a subfolder
+    const path = `OPL-Game-Compatibility-List/${letter}/README.md`;
+
+    fetch(path)
             fetch(letter + '/README.md')
                 .then(response => response.text())
                 .then(markdown => {
