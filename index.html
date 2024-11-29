@@ -79,7 +79,7 @@
 
         <!-- Links to the letters -->
         <div id="letter-links">
-            <a href="#" class="letter-link" onclick="loadGames('A')">A</a>
+            <a href="A" class="letter-link" onclick="loadGames('A')">A</a>
             <a href="#" class="letter-link" onclick="loadGames('B')">B</a>
             <a href="#" class="letter-link" onclick="loadGames('C')">C</a>
             <a href="#" class="letter-link" onclick="loadGames('D')">D</a>
@@ -95,7 +95,7 @@
 
     <script>
         function loadGames(letter) {
-            fetch(letter + '/DATABASE.md')
+            fetch(letter + '/README.md')
                 .then(response => response.text())
                 .then(markdown => {
                     // Convert markdown to HTML
