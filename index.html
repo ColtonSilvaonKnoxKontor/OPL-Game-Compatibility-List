@@ -88,33 +88,31 @@
         <div id="content"></div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/marked@4.0.12/lib/marked.min.js"></script>
-
     <script>
-     function displayGames(letter) {
-    const contentDiv = document.getElementById('content');
-    const filePath = letter + '/README.md'; // Path to the corresponding README.md file (e.g., A/README.md)
-    
-    // Fetch the markdown file
-    fetch(filePath)
-        .then(response => {
-            if (response.ok) {
-                return response.text(); // Return the content of the markdown file
-            } else {
-                throw new Error("File not found");
-            }
-        })
-        .then(markdown => {
-            // Convert the markdown to HTML using the 'marked' library
-            const htmlContent = marked(markdown);
-            contentDiv.innerHTML = htmlContent; // Insert the HTML into the content div
-        })
-        .catch(error => {
-            contentDiv.innerHTML = "<p>Error loading the game list. Please try again later.</p>";
-        });
-}
+        // Function to display the games dynamically in a table format
+        function displayGames(letter) {
+            const contentDiv = document.getElementById('content');
+            
+            // Path to the README.md file for the selected letter
+            const filePath = letter + '/README.md';
 
+            // Fetch the content of the README.md file for that letter
+            fetch(filePath)
+                .then(response => response.text())
+                .then(markdown => {
+                    // Convert the Markdown to HTML
+                    const htmlContent = marked(markdown);
+
+                    // Insert the HTML content into the content div
+                    contentDiv.innerHTML = htmlContent;
+                })
+                .catch(error => {
+                    contentDiv.innerHTML = "<p>Error loading the game list. Please check the file structure.</p>";
+                });
+        }
     </script>
 
+    <!-- Include marked.js to convert Markdown to HTML -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@4.0.12/lib/marked.min.js"></script>
 </body>
 </html>
