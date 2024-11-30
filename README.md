@@ -17,6 +17,11 @@ they are reported as not compatible with latest OPL version. You may update or c
 | SLPS_210.74 | Amagami | アマガミ | 3.7 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
 | SLPS_259.87 | Amagami ebKore+ | アマガミebKore+ | 4.4 | YES | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
 
+# C
+| Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
+| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| AMIG_000.01 | Commodore Amiga (unofficial All-in-One emulator disc) | NONE | 0.4 | NO | DVD-ISO | UNTESTED | UNTESTED | UNTESTED | UNTESTED | YES | SCPH-70005 | Colton Silva | Compatible with any OPL version. I don't know but this might be a rare file as I, myself couldn't find this anywhere. you may download this ISO if you can't find it: https://drive.google.com/file/d/1ar5junRzHUVifl1iJnnhiuicC-0BLstm/view?usp=sharing 
+
 # E
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
@@ -68,5 +73,7 @@ they are reported as not compatible with latest OPL version. You may update or c
 # W
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SLUS_210.6 | WWE SmackDown! vs. RAW | NONE | 4.4 | YES | DVD-ISO | UNTESTED | NO | NO | NO | YES | Any Model | Colton Silva | Works without issues
 | SLUS_212.86 | WWE Smackdown! vs. RAW 2006 | NONE | 4.3 | YES | DVD-ISO | YES | UNTESTED | UNTESTED | UNTESTED | YES | Any Model | Colton Silva | Intro movie sluttering
-
+| SLUS_214.27 | WWE SmackDown! vs. RAW 2007 | NONE | 4.5 | YES | DVD-ISO | NO | NO | NO | NO | NO | Any Model | Colton Silva | Intro movie works but freezes at Start Game screen (UNPLAYABLE).
+| SLUS_216.45 | WWE SmackDown! vs. RAW 2008 | NONE | 4.3 | YES | DVD-ISO | NO | NO | NO | NO | NO | Any Model | Colton Silva | UNPLAYABLE
