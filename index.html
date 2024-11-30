@@ -142,11 +142,12 @@
 
                 })
                 .catch(error => {
-                    contentDiv.innerHTML = "<p>Error loading the game list. Please check the file structure or try again later.</p>";
+                    contentDiv.innerHTML = "<p>Error loading the game list, no database made at this time. (UNEXIST_LIST)</p>";
                     console.error('Fetch error:', error);  // Log the error for debugging
                 });
         }
     </script>
-<p style="text-align:center"> Hosted in Github. Colton Silva 2024</p>
+    
+<p style="text-align:center"> Hosted in Github. 2024 by Colton Silva (西沢信長)</p>
 </body>
 </html>
