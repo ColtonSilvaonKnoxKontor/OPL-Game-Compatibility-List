@@ -1,5 +1,5 @@
 # OPL PS2 Game Compatibility List
-This is a github repository that contains lists of compatible PS2 games using USB on OPL. For HDD/SMB, refer to other sources. To view this list dynamically, you may click the link to the left section of About.
+This is a github repository that contains updated lists of compatible PS2 games using USB on OPL. For HDD/SMB, refer to other sources. To view this list dynamically, you may click the link to the left section of About.
 
 # How to add a game list here?
 You may use `formatter.cpp`, a c++ program that will automatically format a table data for you with easy to input function. These lists follow alphabetical sorting order from first numeric and letter.
@@ -8,9 +8,17 @@ You may use `formatter.cpp`, a c++ program that will automatically format a tabl
 > Please put compatibility mode settings or OPL version on **Notes** if there's a specific version that can work while others not.
 
 # Disclaimer
-While some data here are not so accurate since most game lists are based on other sources provided by the OPL devs and contributors, it guarantees that all of the listed games here are tested working; or if not,
-they are reported as not compatible with latest OPL version. You may update or change data here if some features of OPL works or not.
+While some data here are not so accurate since most game lists are based on other sources provided by the OPL devs and contributors, it guarantees that all of the listed games here are tested working; or if not,they are reported as not compatible with latest OPL version. You may update or change data here if some features of OPL works or not.
 
+# References
+While some games are tested personally by [@ColtonSilvaonKnoxKontor](https://github.com/ColtonSilvaonKnoxKontor/) especially the japanese titles, we also need to gather and include external database from different sources. For reference and credits, you may visit these website here:
+
+[Github Page of PS2Homebrew](https://www.ps2homebrew.org/Open-PS2-Loader-Compatibility-list)
+
+[Algol's Database](https://docs.google.com/spreadsheets/d/1MLEw7TIKvn9MCwd5Ptbqh2lkUj3lX6YQ2wPgLEx8Koo/edit?gid=0#gid=0)
+
+# Legend
+Game ID with identification **SLPS** and **SCPS** means it is released in **JAPAN**, **SCUS** and **SLUS** for the **UNITED STATES**, and **SCES** and **SLES** for **Europe**.
 # A
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
@@ -20,7 +28,7 @@ they are reported as not compatible with latest OPL version. You may update or c
 # C
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
-| AMIG_000.01 | Commodore Amiga (unofficial All-in-One emulator disc) | NONE | 0.4 | NO | DVD-ISO | UNTESTED | UNTESTED | UNTESTED | UNTESTED | YES | SCPH-70005 | Colton Silva | Compatible with any OPL version. I don't know but this might be a rare file as I, myself couldn't find this anywhere. you may download this ISO if you can't find it: https://drive.google.com/file/d/1ar5junRzHUVifl1iJnnhiuicC-0BLstm/view?usp=sharing 
+| AMIG_000.01 | Commodore Amiga (unofficial All-in-One emulator disc) | NONE | 0.4 | NO | DVD-ISO | UNTESTED | UNTESTED | UNTESTED | UNTESTED | YES | SCPH-70005 | Colton Silva | Compatible with any OPL version. I don't know but this might be a rare file as I, myself couldn't find this anywhere. You may download this ISO if you can't find it: https://drive.google.com/file/d/1ar5junRzHUVifl1iJnnhiuicC-0BLstm/view?usp=sharing 
 
 # E
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
@@ -68,6 +76,7 @@ they are reported as not compatible with latest OPL version. You may update or c
 # T
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SLPS_255.10, SLUS_210.59 | TEKKEN 5 | 鉄拳５ | 4.1 | YES | DVD-ISO | YES | YES | NO | YES | YES | SCPH-39001 | MERGED [@INDRAPhilip](https://github.com/INDRAPhilip) | shuttering was reduced on beta 1901 compared to 1.0.0 release, Compatibility mode set to 6
 | SLUS_210.74 | The Guy Game | NONE | 8.1 | YES | DVD9-ISO | NO | NO | NO | NO | NO | Any Model | Colton Silva | Stuck at loading screen (sorry, no sexy time)
 
 # W
