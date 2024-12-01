@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://coltonsilvaonknoxkontor.github.io/OPL-Game-Compatibility-List/
