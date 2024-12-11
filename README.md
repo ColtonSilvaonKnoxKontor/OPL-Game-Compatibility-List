@@ -22,13 +22,14 @@ Game ID with identification **SLPS** and **SCPS** means it is released in **JAPA
 # A
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
-| SLPS_210.74 | Amagami | アマガミ | 3.7 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
-| SLPS_259.87 | Amagami ebKore+ | アマガミebKore+ | 4.4 | YES | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
+| SLPM_654.81 | After... \~ Wasureenu Kizuna \~ | アフター、、、～忘れえぬ絆～ 通常版 | 1.3 | NO | DVD-ISO | YES | NO | NO | YES | YES | Any Model | Colton Silva | NONE
+| SLPS_210.74 | Amagami | アマガミ | 3.7 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
+| SLPS_259.87 | Amagami ebKore+ | アマガミebKore+ | 4.4 | YES | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
 
 # B
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
-| **Japan:** SLPM_654.59 <br >**America:** SLUS_208.95 <br >**Europe:** SLES_524.95 | **Japan:** Bujingai <br >**America:** Bujingai: The Forsaken City <br >**Europe:** Bujingai: Swordmaster | 武刃街 | 4.7 | YES | DVD-ISO | UNTESTED | UNTESTED | NO | UNTESTED | YES | Any Model | Colton Silva | Cutscene movie sometimes slutter
+| **Japan:** SLPM_654.59 <br >**America:** SLUS_208.95 <br >**Europe:** SLES_524.95 | **Japan:** Bujingai <br >**America:** Bujingai: The Forsaken City <br >**Europe:** Bujingai: Swordmaster | 武刃街 | 4.7 | YES | DVD-ISO | UNTESTED | UNTESTED | NO | UNTESTED | YES | Any Model | Colton Silva | Cutscene movie sometimes stutter
 
 # C
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
@@ -88,7 +89,19 @@ Game ID with identification **SLPS** and **SCPS** means it is released in **JAPA
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
 | SLES_556.76 | **UNOFFICIAL** PES2022 - Winter Season Full Update Transfer | NONE | 1.5 | NO | DVD-ISO | NO | NO | NO | NO | YES | SCPH-70005 | Colton Silva | [Source](https://archive.org/details/PES2022-WinterTransfer-PS2)
-| SLUS_207.43 | Prince of Persia: The Sands of Time | NONE | 2.4 | NO | DVD-ISO | YES | NO | NO | NO | YES | SCPH-70005 | Colton Silva | Intro and in-game movie slutters
+| PBPX_955.14 | **DEMO** PlayStation 2 Demo Disc PBX_955.14 | NONE | 4.7 | YES | DVD-ISO | USELESS | NO | NO | YES | YES | Any Model | Colton Silva | Laggy Video [Source](https://archive.org/details/pbpx-95514)
+| SLUS_207.43 | Prince of Persia: The Sands of Time | NONE | 2.4 | NO | DVD-ISO | YES | NO | NO | NO | YES | SCPH-70005 | Colton Silva | Intro and Choppy in-game 
+
+# Q
+| Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
+| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SLPS_0**00.00** | **SOFTWARE** QA Tool | NONE | 1.2 | YES | DVD-ISO | USELESS | NO | NO | YES | YES | Any Model | Colton Silva | [Source](https://archive.org/details/img013_202102). This is just a software disc with advanced Memory Card and Network Interconnectivity options. This can destroy game save data.
+
+
+# R
+| Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
+| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| PCPX_966.27 | **DEMO** Recommended Summer Software Sample Disc 2002 | 2002 夏のオススメソフトお試しDISC | 1.6 | NO | DVD-ISO | USELESS | NO | NO | NO **See Note** | YES | SCPH-70005 | Colton Silva | [Source](https://archive.org/details/ps2_summersoftware2002/). Laggy Video. Forcing this into PAL via GSM setting will render the promotional video incorrectly, as the top portion of screen will shift to the bottom part.
 
 # S
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
@@ -107,6 +120,6 @@ Game ID with identification **SLPS** and **SCPS** means it is released in **JAPA
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
 | SLUS_210.6 | WWE SmackDown! vs. RAW | NONE | 4.4 | YES | DVD-ISO | UNTESTED | NO | NO | NO | YES | Any Model | Colton Silva | Works without issues
-| SLUS_212.86 | WWE Smackdown! vs. RAW 2006 | NONE | 4.3 | YES | DVD-ISO | YES | UNTESTED | UNTESTED | UNTESTED | YES | Any Model | Colton Silva | Intro movie sluttering
+| SLUS_212.86 | WWE Smackdown! vs. RAW 2006 | NONE | 4.3 | YES | DVD-ISO | YES | UNTESTED | UNTESTED | UNTESTED | YES | Any Model | Colton Silva | Laggy Intro movie
 | SLUS_214.27 | WWE SmackDown! vs. RAW 2007 | NONE | 4.5 | YES | DVD-ISO | NO | NO | NO | NO | NO | Any Model | Colton Silva | Intro movie works but freezes at Start Game screen (UNPLAYABLE).
 | SLUS_216.45 | WWE SmackDown! vs. RAW 2008 | NONE | 4.3 | YES | DVD-ISO | NO | NO | NO | NO | NO | Any Model | Colton Silva | UNPLAYABLE
