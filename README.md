@@ -2,7 +2,7 @@
 This is a github repository that contains updated lists of compatible PS2 games using USB on OPL. For HDD/SMB, refer to other sources. To view this list dynamically, you may click the link to the left section of About.
 
 # How to add a game list here?
-You may use `formatter.cpp`, a c++ program that will automatically format a table data for you with easy to input function. These lists follow alphabetical sorting order from first numeric and letter.
+Add your tested games on REPORTS.md, not here; or you may create an Issue to add game. You may use `formatter.cpp`, a c++ program that will automatically format a table data for you with easy to input function. These lists follow alphabetical sorting order from first numeric and letter.
 
 > [!NOTE]
 > Please put compatibility mode settings or OPL version on **Notes** if there's a specific version that can work while others not.
@@ -18,7 +18,7 @@ While some games are tested personally by [@ColtonSilvaonKnoxKontor](https://git
 [Algol's Database](https://docs.google.com/spreadsheets/d/1MLEw7TIKvn9MCwd5Ptbqh2lkUj3lX6YQ2wPgLEx8Koo/edit?gid=0#gid=0)
 
 # Legend
-Game ID with identification **SLPS** and **SCPS** means it is released in **JAPAN**, **SCUS** and **SLUS** for the **UNITED STATES**, and **SCES** and **SLES** for **Europe**.
+Game ID with identification **SLPS** and **SCPS** means it is released in **JAPAN**, **SCUS** and **SLUS** for the **UNITED STATES**, and **SCES** and **SLES** for **Europe**. **UNOFFICIAL** tag on **Name** means it is not licensed nor non-official released by Sony PlayStation, but instead thay are modified game. **ALPHA** or **BETA** tag means they are prototype, unfinished or a preview built before the official release to the public.
 # A
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
@@ -33,6 +33,7 @@ Game ID with identification **SLPS** and **SCPS** means it is released in **JAPA
 # C
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SLPS_202.02 | Coloball 2002 | コロボール2002 | 0.3 | NO | CD-BIN | UNTESTED | UNTESTED | UNTESTED | UNTESTED | YES | SCPH-70005 | Colton Silva | NONE
 | AMIG_000.01 | Commodore Amiga (unofficial All-in-One emulator disc) | NONE | 0.4 | NO | DVD-ISO | UNTESTED | UNTESTED | UNTESTED | UNTESTED | YES | SCPH-70005 | Colton Silva | Compatible with any OPL version. I don't know but this might be a rare file as I, myself couldn't find this anywhere. You may download this ISO if you can't find it: https://drive.google.com/file/d/1ar5junRzHUVifl1iJnnhiuicC-0BLstm/view?usp=sharing 
 
 # E
@@ -47,7 +48,8 @@ Game ID with identification **SLPS** and **SCPS** means it is released in **JAPA
 | SLUS_214.23 | Grand Theft Auto: Liberty City Stories | NONE | 4.0 | YES | DVD-ISO | YES | NO | NO | NO | YES | SCPH-70005, SCPH-70006 | Colton Silva | NONE
 | SLUS_209.46 | Grand Theft Auto: San Andreas | NONE | 4.5 | YES | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
 | SLUS_205.22 | Grand Theft Auto: Vice City | NONE | 4.7 | YES | DVD-ISO | YES | UNTESTED | UNTESTED | UNTESTED | YES | Any Model | Colton Silva | NONE
-| SLUS_215.9 | Grand Theft Auto: Vice City Stories | NONE | 4.1 | YES | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
+| SLUS_215.9**0** | Grand Theft Auto: Vice City Stories | NONE | 4.1 | YES | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
+| SLUS_617.47 | **UNOFFICIAL** Guitar Hero: Sonic vs. Super Mario | NONE | 2.9 | NO | DVD-ISO | NO | NO | NO | NO | YES | SCPH-70005 | Colton Silva | [Source](https://archive.org/details/guitar-hero-2-sonic-vs-mario-ps-2/1Guitar%20Hero%20Sonic%20Vs%20Mario%20%28Capa%20do%20jogo%29.jpg)
 
 # H
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
@@ -65,8 +67,9 @@ Game ID with identification **SLPS** and **SCPS** means it is released in **JAPA
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
 | SLPS_253.99 | Keroro Gunsou: Mero Mero Battle Royale | ケロロ軍曹 メロメロバトルロイヤル | 3.9 | YES | DVD-ISO | YES | YES | YES | YES | YES | Any Model | Colton Silva | None
 | SLPS_255.75 | Keroro Gunsou: Mero Mero Battle Royale Z | ケロロ軍曹　～メロメロバトルロイヤルＺ～ | 3.5 | NO | DVD-ISO | YES | YES | UNTESTED | YES | YES | Any Model | Colton Silva | No problem whatsoever with framerate and videos
-| SLPS_256.43 | KimiKiss | キミキス | 3.4 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
-| SLPS_258.50 | KimiKiss ebKore+ | エビコレ＋キミキス | 1.3 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
+| SLPS_256.43 | KimiKiss | キミキス | 3.4 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
+| SLPS_258.50 | KimiKiss ebKore+ | エビコレ＋キミキス | 1.3 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
+| SCPS_110.31 | Kuma Uta | くまうた | 0.2 | NO | CD-BIN | NO | NO | NO | NO | YES | SCPH-70005 | Colton Silva | NONE
 
 # N
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
@@ -76,6 +79,7 @@ Game ID with identification **SLPS** and **SCPS** means it is released in **JAPA
 # P
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SLES_556.76 | **UNOFFICIAL** PES2022 - Winter Season Full Update Transfer | NONE | 1.5 | NO | DVD-ISO | NO | NO | NO | NO | YES | SCPH-70005 | Colton Silva | [Source](https://archive.org/details/PES2022-WinterTransfer-PS2)
 | SLUS_207.43 | Prince of Persia: The Sands of Time | NONE | 2.4 | NO | DVD-ISO | YES | NO | NO | NO | YES | SCPH-70005 | Colton Silva | Intro and in-game movie slutters
 
 # S
