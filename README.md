@@ -36,9 +36,15 @@ Game ID with identification **SLPS** and **SCPS** means it is released in **JAPA
 | SLPS_202.02 | Coloball 2002 | コロボール2002 | 0.3 | NO | CD-BIN | UNTESTED | UNTESTED | UNTESTED | UNTESTED | YES | SCPH-70005 | Colton Silva | NONE
 | AMIG_000.01 | Commodore Amiga (unofficial All-in-One emulator disc) | NONE | 0.4 | NO | DVD-ISO | UNTESTED | UNTESTED | UNTESTED | UNTESTED | YES | SCPH-70005 | Colton Silva | Compatible with any OPL version. I don't know but this might be a rare file as I, myself couldn't find this anywhere. You may download this ISO if you can't find it: https://drive.google.com/file/d/1ar5junRzHUVifl1iJnnhiuicC-0BLstm/view?usp=sharing 
 
+# D
+| Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
+| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SLPS_252.33 | Dodonpachi Dai-Ou-Jou | 怒首領蜂 大往生 | 1.6 | NO | DVD-ISO | YES | NO | NO | YES | YES | Any Model | Colton Silva | NONE
+
 # E
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SLPM_620.47 | Endonesia | エンドネシア | 0.3 | NO | CD-BIN | YES | NO | NO | YES | YES | SCPH-70005 | Colton Silva | NONE
 | SLUS_209.19 | ESPN NFL 2K5 | NONE | 4.7 | YES | DVD-ISO | YES | UNTESTED | UNTESTED | UNTESTED | YES | SCPH-70005 | Colton Silva | Works perfectly
 
 # G
@@ -59,12 +65,14 @@ Game ID with identification **SLPS** and **SCPS** means it is released in **JAPA
 # I
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SLPM_663.01 | Ibara | 鋳薔薇 | 3.9 | NO | DVD-ISO | YES | NO | NO | YES | YES | Any Model | Colton Silva | NONE
 | SLPS_255.47 | Ichigo Mashimaro | 苺ましまろ | 2.8 | NO | DVD-ISO | YES | YES | UNTESTED | YES | YES | Any Model | Colton Silva | With some noticeable framedrops
 | SLPM_652.68 | Initial D Special Stage | 頭文字Ｄ Special Stage | 2.0 | NO | DVD-ISO | NO | NO | NO | NO | YES | SCPH-70005 | Colton Silva | NONE
 
 # K
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SLPM_664.77 | Kamiwaza | 神業 | 3.2 | NO | DVD-ISO | UNTESTED | UNTESTED | UNTESTED | UNTESTED | YES | Any Model | Colton Silva | NONE
 | SLPS_253.99 | Keroro Gunsou: Mero Mero Battle Royale | ケロロ軍曹 メロメロバトルロイヤル | 3.9 | YES | DVD-ISO | YES | YES | YES | YES | YES | Any Model | Colton Silva | None
 | SLPS_255.75 | Keroro Gunsou: Mero Mero Battle Royale Z | ケロロ軍曹　～メロメロバトルロイヤルＺ～ | 3.5 | NO | DVD-ISO | YES | YES | UNTESTED | YES | YES | Any Model | Colton Silva | No problem whatsoever with framerate and videos
 | SLPS_256.43 | KimiKiss | キミキス | 3.4 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
