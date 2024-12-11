@@ -25,6 +25,11 @@ Game ID with identification **SLPS** and **SCPS** means it is released in **JAPA
 | SLPS_210.74 | Amagami | アマガミ | 3.7 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
 | SLPS_259.87 | Amagami ebKore+ | アマガミebKore+ | 4.4 | YES | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva |
 
+# B
+| Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
+| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| **Japan:** SLPM_654.59 <br >**America:** SLUS_208.95 <br >**Europe:** SLES_524.95 | **Japan:** Bujingai <br >**America:** Bujingai: The Forsaken City <br >**Europe:** Bujingai: Swordmaster | 武刃街 | 4.7 | YES | DVD-ISO | UNTESTED | UNTESTED | NO | UNTESTED | YES | Any Model | Colton Silva | Cutscene movie sometimes slutter
+
 # C
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
@@ -43,6 +48,11 @@ Game ID with identification **SLPS** and **SCPS** means it is released in **JAPA
 | SLUS_209.46 | Grand Theft Auto: San Andreas | NONE | 4.5 | YES | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
 | SLUS_205.22 | Grand Theft Auto: Vice City | NONE | 4.7 | YES | DVD-ISO | YES | UNTESTED | UNTESTED | UNTESTED | YES | Any Model | Colton Silva | NONE
 | SLUS_215.9 | Grand Theft Auto: Vice City Stories | NONE | 4.1 | YES | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
+
+# I
+| Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
+| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| **Japan:** SLPS_731.09 <br >**America:** 	SLUS_202.51| **Japan:** Bokujou Monogatari 3: Hato ni Hi wo Tsukete <br >**America:** Harvest Moon: Save the Homeland | 牧場物語3 ハートに火をつけて | 0.09 | NO | CD-BIN | YES | NO | NO | NO | YES | Any Model | Colton Silva |NONE
 
 # I
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
