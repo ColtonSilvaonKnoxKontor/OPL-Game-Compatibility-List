@@ -49,7 +49,7 @@ Game ID with identification **SLPS** and **SCPS** means it is released in **JAPA
 | SLUS_205.22 | Grand Theft Auto: Vice City | NONE | 4.7 | YES | DVD-ISO | YES | UNTESTED | UNTESTED | UNTESTED | YES | Any Model | Colton Silva | NONE
 | SLUS_215.9 | Grand Theft Auto: Vice City Stories | NONE | 4.1 | YES | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
 
-# I
+# H
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
 | **Japan:** SLPS_731.09 <br >**America:** 	SLUS_202.51| **Japan:** Bokujou Monogatari 3: Hato ni Hi wo Tsukete <br >**America:** Harvest Moon: Save the Homeland | 牧場物語3 ハートに火をつけて | 0.09 | NO | CD-BIN | YES | NO | NO | NO | YES | Any Model | Colton Silva |NONE
