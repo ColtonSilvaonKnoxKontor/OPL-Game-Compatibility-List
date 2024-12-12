@@ -59,7 +59,7 @@ int main() {
         cin >> che;
     }
 
-    cout << "\nWhat is the game media format? Is it DVD-ISO, CD-ISO, DVD9-ISO or something else? ";
+    cout << "\nWhat is the game media format? Is it DVD-ISO, CD-BIN, DVD9-ISO or something else? ";
     cin >> chf;
 
     cout << "\nVNC: YES or NO only: ";
