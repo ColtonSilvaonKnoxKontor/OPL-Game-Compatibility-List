@@ -29,6 +29,8 @@ Game ID with identification **SLPS** and **SCPS** means it is released in **JAPA
 # B
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SLPS_204.43 | Blokus Club with Bumpy Trot | ブロックス倶楽部 with バンピートロット | 0.5 | NO | CD-BIN | YES | NO | NO | YES | YES | SCPH-70005 | Colton Silva | NONE
+| SLPS_256.77 | Blood +: One Night Kiss | ブラッドプラス ワン ナイト キス | 2.6 | NO | DVD-ISO | YES | YES | NO | YES | YES | Any Model | Colton Silva | NONE
 | **Japan:** SLPM_654.59 <br >**America:** SLUS_208.95 <br >**Europe:** SLES_524.95 | **Japan:** Bujingai <br >**America:** Bujingai: The Forsaken City <br >**Europe:** Bujingai: Swordmaster | 武刃街 | 4.7 | YES | DVD-ISO | UNTESTED | UNTESTED | NO | UNTESTED | YES | Any Model | Colton Silva | Cutscene movie sometimes stutter
 
 # C
@@ -78,12 +80,18 @@ Game ID with identification **SLPS** and **SCPS** means it is released in **JAPA
 | SLPS_255.75 | Keroro Gunsou: Mero Mero Battle Royale Z | ケロロ軍曹　～メロメロバトルロイヤルＺ～ | 3.5 | NO | DVD-ISO | YES | YES | UNTESTED | YES | YES | Any Model | Colton Silva | No problem whatsoever with framerate and videos
 | SLPS_256.43 | KimiKiss | キミキス | 3.4 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
 | SLPS_258.50 | KimiKiss ebKore+ | エビコレ＋キミキス | 1.3 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
+| SCUS_972.27 | **DEMO** Kiosk Demo Disc 2.7 | NONE | 2.7 | NO | DVD-ISO | USELESS | NO | NO | YES | YES | Any Model | Colton Silva | Laggy videos
 | SCPS_110.31 | Kuma Uta | くまうた | 0.2 | NO | CD-BIN | NO | NO | NO | NO | YES | SCPH-70005 | Colton Silva | NONE
 
 # N
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
 | --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
 | SLUS_216.47 | NHL 08 | NONE | 4.7 | YES | DVD-ISO | YES | UNTESTED | UNTESTED | UNTESTED | YES | Any Model | Colton Silva | NONE
+
+# O
+| Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
+| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
+| SCUS_971.85 | **DEMO** Official U.S. PlayStation Magazine Demo Disc issue 59 | NONE | 3.7 | NO | DVD-ISO | USELESS | NO | NO | YES | YES (**See Note**) | Any Model | Colton Silva | Only Britney's Dance Beat is unplayable due to freezing at THQ logo
 
 # P
 | Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
