@@ -39,7 +39,7 @@ int main() {
     cout << "\nIf your game is released in America or English EU; OR if your computer can't display unicode characters, just type NONE. \nForeign Name: ";
     getline(cin, chc);
 
-    cout << "\nPlease input file size in ISO format, not while in ZIP/7ZIP format." << endl;
+    cout << "\nPlease input file size in ISO format in GB, not while in ZIP/7ZIP format." << endl;
     cout << "Size: ";
     cin >> chd;
 
@@ -47,6 +47,13 @@ int main() {
     while (!isValidNumericInput(chd)) {
         cout << "Invalid input! Please enter a valid number for the file size: ";
         cin >> chd;
+    }
+
+     cout << "Is Japanese title have fan-made english translations?";
+    cin >> chh;
+    while (!isYesOrNo(chh)) {
+        cout << "Invalid input! Please answer with 'YES' or 'NO': ";
+        cin >> chh;
     }
 
     cout << "\nAnswer with YES or NO only." << endl;
@@ -68,8 +75,8 @@ int main() {
         cout << "Invalid input! Please answer with 'YES' or 'NO': ";
         cin >> chg;
     }
-
-    cout << "\nIGR: YES or NO only: ";
+    
+ /* cout << "\nIGR: YES or NO only: ";
     cin >> chh;
     while (!isYesOrNo(chh)) {
         cout << "Invalid input! Please answer with 'YES' or 'NO': ";
@@ -81,7 +88,7 @@ int main() {
     while (!isYesOrNo(chi)) {
         cout << "Invalid input! Please answer with 'YES' or 'NO': ";
         cin >> chi;
-    }
+    } */
 
     cout << "\nGSM: YES or NO only: ";
     cin >> chj;
