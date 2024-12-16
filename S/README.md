@@ -1,4 +1,4 @@
-| Game ID     | Name | Foreign Name | Size (ISO) | Need Split? | Format | VNC | IGR | PADEMU | GSM | Compatible? | Console | Reporter | Notes |
-| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- | --- |
-| SCUS_974.72 | Shadow of the Collosus | NONE | 2.7 | NO | DVD-ISO | YES | NO | NO | NO | YES | Any Model | Colton Silva | NONE
-| SRPM_702.01 | Space Venus starring Morning Musume | スペースヴィーナス starring モーニング娘。 | 4.7 | YES | DVD-ISO | NO | NO | NO | NO | NO | SCPH-70005 | Colton Silva | UNPLAYABLE. Without game setting mode, only "insufficient memory card" shows. With game setting MODE 4 (Skip Videos), the main menu and inputting player name, gender, birthdate and blood type is accessible but after proceeding to game, it freezes. This is because, in fact that this game is actually a music visual software for the said Japanese pop group.
+| Game ID     | Name | Foreign Name | With English? | Size (ISO) | Need Split? | Format | VNC | GSM | Compatible? | Console | Reporter | Notes |
+| --- | --- | --- | --- | --- | ---  | ---  | --- | --- | --- | --- | --- | --- |
+| SCUS_974.72 | Shadow of the Collosus | NONE |  | 2.7 | NO | DVD-ISO | YES | NO | YES | Any Model | Colton Silva | NONE
+| SRPM_702.01 | Space Venus starring Morning Musume | スペースヴィーナス starring モーニング娘。 | NO | 4.7 | YES | DVD-ISO | NO | NO | NO | SCPH-70005 | Colton Silva | UNPLAYABLE. Without game setting mode, only "insufficient memory card" shows. With game setting MODE 4 (Skip Videos), the main menu and inputting player name, gender, birthdate and blood type is accessible but after proceeding to game, it freezes. This is because, in fact that this game is actually a music visual software for the said Japanese pop group.
