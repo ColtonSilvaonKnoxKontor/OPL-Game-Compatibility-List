@@ -1,5 +1,8 @@
 # OPL PS2 Game Compatibility List
-This is a github repository that contains updated lists of compatible PS2 games using USB on OPL. For HDD/SMB, refer to other sources. To view this list dynamically, you may click the link to the left section of About.
+This is a github repository that contains updated lists of compatible PS2 games using USB on OPL. This project is meant for Japanese titles. For HDD/SMB and most western games, refer to other sources. To view this list dynamically, you may click the link to the left section of About.
+
+# Goal
+Because there are many listing in other sites operated by ps2homebrew developers, my only goal is to test out japanese titles, demo,  prototype, and applications.
 
 # How to add a game list here?
 Add your tested games on REPORTS.md, not here; or you may create an Issue to add game. You may use `formatter.cpp`, a c++ program that will automatically format a table data for you with easy to input function. These lists follow alphabetical sorting order from first numeric and letter.
@@ -9,13 +12,6 @@ Add your tested games on REPORTS.md, not here; or you may create an Issue to add
 
 # Disclaimer
 While some data here are not so accurate since most game lists are based on other sources provided by the OPL devs and contributors, it guarantees that all of the listed games here are tested working; or if not,they are reported as not compatible with latest OPL version. You may update or change data here if some features of OPL works or not.
-
-# References
-While some games are tested personally by [@ColtonSilvaonKnoxKontor](https://github.com/ColtonSilvaonKnoxKontor/) especially the japanese titles, we also need to gather and include external database from different sources. For reference and credits, you may visit these website here:
-
-[Github Page of PS2Homebrew](https://www.ps2homebrew.org/Open-PS2-Loader-Compatibility-list)
-
-[Algol's Database](https://docs.google.com/spreadsheets/d/1MLEw7TIKvn9MCwd5Ptbqh2lkUj3lX6YQ2wPgLEx8Koo/edit?gid=0#gid=0)
 
 # Legend
 Game ID with identification **SLPS** and **SCPS** means it is released in **JAPAN**, **SCUS** and **SLUS** for the **UNITED STATES**, and **SCES** and **SLES** for **Europe**. **UNOFFICIAL** tag on **Name** means it is not licensed nor non-official released by Sony PlayStation, but instead thay are modified game. **ALPHA** or **BETA** tag means they are prototype, unfinished or a preview built before the official release to the public.
